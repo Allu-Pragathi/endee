@@ -28,15 +28,14 @@ This project is designed for researchers and analysts to intelligently interact 
 
 ```mermaid
 graph TD
-    A[User Query] --> B[Embedding Model (OpenAI)]
-    B --> C[Endee Vector DB]
-    C --> D[Top-K Relevant Chunks + Metadata]
-    D --> E[LLM - GPT-4o]
-    E --> F[Final Response with Citations]
-    
-    U[PDF Upload] --> V[PyMuPDF Extract]
-    V --> W[Chunking + Meta]
-    W --> X[Endee Indexing]
+    A["Research PDFs"] --> B["PyMuPDF Text Extraction"]
+    B --> C["Overlapping Chunking Service"]
+    C --> D["Google/OpenAI Embeddings"]
+    D --> E["Endee Vector Database"]
+    F["User Query"] --> G["Hybrid Retrieval Engine"]
+    E -.-> G
+    G --> H["Gemini 1.5 Flash Reasoning"]
+    H --> I["Source-Aware Answer"]
 ```
 
 ---
@@ -123,4 +122,4 @@ endee-ai-research-intelligence/
 
 ### Developed for
 **Endee Open Source Evaluation (OC.41989.2026)**
-By: [Your Name]
+By: Allu Pragathi
