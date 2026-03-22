@@ -1,0 +1,9 @@
+endee
+streamlit
+pymupdf
+openai
+python-dotenv
+google-generativeai
+pandas
+numpy
+altair

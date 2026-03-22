@@ -1,0 +1,14 @@
+streamlit
+endee
+pymupdf
+openai
+python-dotenv
+google-generativeai
+pandas
+numpy
+altair
+orjson
+pydantic
+requests
+httpx
+msgpack

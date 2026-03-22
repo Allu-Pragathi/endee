@@ -53,6 +53,7 @@ endee-data/
 *.pdf
 !sample_papers/*.pdf
 *.txt
+!requirements.txt
 *.csv
 # Ignore comparison exports if any
 comparison_*.txt
