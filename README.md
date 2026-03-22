@@ -16,8 +16,6 @@
     <a href="https://github.com/endee-io/endee/blob/master/LICENSE"><img src="https://img.shields.io/github/license/endee-io/endee?style=flat-square" alt="License"></a>
     <a href="https://discord.gg/5HFGqDZQE3"><img src="https://img.shields.io/badge/Discord-Join_Chat-5865F2?logo=discord&style=flat-square" alt="Discord"></a>
     <a href="https://endee.io/"><img src="https://img.shields.io/badge/Website-Endee-111111?style=flat-square" alt="Website"></a>
-    <!-- <a href="https://endee.io/benchmarks"><img src="https://img.shields.io/badge/Benchmarks-Coming_Soon-1F8B4C?style=flat-square" alt="Benchmarks"></a> -->
-    <!-- <a href="https://endee.io/cloud"><img src="https://img.shields.io/badge/Cloud-Coming_Soon-2496ED?style=flat-square" alt="Cloud"></a> -->
 </p>
 
 <p align="center">
@@ -137,3 +135,26 @@ If you offer a hosted or managed service based on this software, you must use yo
 ## Third-Party Software
 
 This project includes or depends on third-party software components licensed under their respective open-source licenses. Use of those components is governed by their own license terms.
+
+---
+
+---
+
+# 🚀 PROJECT SUBMISSION: AI Research Intelligence System
+
+I have developed a sophisticated **AI Research Intelligence System** built on top of the **Endee** ecosystem. This application is designed to solve the problem of information overload in academic research by using advanced RAG (Retrieval Augmented Generation) to analyze and synthesize multiple research papers.
+
+### 📁 Project Location: [**`./endee-ai-research-intelligence`**](./endee-ai-research-intelligence/)
+
+### 🛠️ How Endee is Integrated
+- **Core Vector Database:** Endee is used as the primary storage for thousands of high-dimensional research document embeddings (3072-dim).
+- **Filtered Retrieval:** Leverages Endee's metadata filtering to enable side-by-side comparison of specific papers without cross-contamination of context.
+- **Dynamic Indexing:** Automatically initializes optimized indices into the Endee Docker instance based on detected model dimensions.
+
+### 🌟 Key Capabilities
+1.  **Semantic Search & RAG:** Precise question answering across large PDF corpora with source-aware citations.
+2.  **Comparative Analysis:** Intelligent reasoning to contrast methodologies and findings between multiple documents.
+3.  **Literature Synthesis:** Automated generation of structured literature reviews from a group of uploaded papers.
+
+### 📖 Getting Started with the Project
+Please navigate to the [**Project README**](./endee-ai-research-intelligence/README.md) for full setup instructions, system design diagrams, and execution steps.

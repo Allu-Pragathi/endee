@@ -1,32 +1,59 @@
-
-# Ignore build directory
+# Endee Original Ignores
 build/
-# Ignore build like directory
 build*/
-# Ignore all files in the build directory
 build/*
-
-# Ignore tests build directory
 tests/build/
 tests/build*/
-
-# Test binaries
 tests/**/ndd_filter_test
-
-# macOS debug symbols
 *.dSYM/
-
-# Sometimes data files are created for tetsing
 data/
 data/*
-
-# VS Code directory
 .vscode/
 .vscode/*
-
-# Frontend
 frontend/
 frontend/*
-
-# DS Store
 .DS_Store
+
+# --- AI RESEARCH INTELLIGENCE APP IGNORES ---
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+dist/
+downloads/
+eggs/
+.lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+
+# Endee Database Persistence (Docker)
+endee-data/
+*.db
+*.sqlite
+
+# Streamlit/Notebook
+.streamlit/config.toml
+.ipynb_checkpoints
+.pytest_cache/
+
+# Temporary Research Data
+*.pdf
+!sample_papers/*.pdf
+*.txt
+*.csv
+# Ignore comparison exports if any
+comparison_*.txt
+literature_review.txt
