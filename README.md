@@ -146,6 +146,9 @@ I have developed a sophisticated **AI Research Intelligence System** built on to
 
 ### 📁 Project Location: [**`./endee-ai-research-intelligence`**](./endee-ai-research-intelligence/)
 
+### 🚀 **Live Demo:** [**https://research-assistant-en.streamlit.app/**](https://research-assistant-en.streamlit.app/)
+*(Please note: Live demo uses High-Fidelity Simulation Mode. For full Endee performance, run locally via Docker.)*
+
 ### 🛠️ How Endee is Integrated
 - **Core Vector Database:** Endee is used as the primary storage for thousands of high-dimensional research document embeddings (3072-dim).
 - **Filtered Retrieval:** Leverages Endee's metadata filtering to enable side-by-side comparison of specific papers without cross-contamination of context.

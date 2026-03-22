@@ -1,5 +1,10 @@
 # AI Research Intelligence System using Endee (Advanced RAG + Multi-Document Reasoning)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://research-assistant-en.streamlit.app/)
+
+### 🚀 **Live Demo:** [**https://research-assistant-en.streamlit.app/**](https://research-assistant-en.streamlit.app/)
+*(Please note: Live demo uses High-Fidelity Simulation Mode. For full Endee performance, run locally via Docker.)*
+
 A production-ready Retrieval-Augmented Generation (RAG) system that allows users to upload multiple research papers (PDFs) and perform intelligent querying, comparison, and summarization using **Endee** as the core vector database.
 
 ![App Mockup](./assets/app_mockup.png)
