@@ -77,7 +77,7 @@ cd endee-ai-research-intelligence
 pip install -r requirements.txt
 
 # Create a .env file
-echo "OPENAI_API_KEY=your_sk_key_here" > .env
+echo "GOOGLE_API_KEY=your_sk_key_here" > .env
 ```
 
 ### 4. Run the Application
